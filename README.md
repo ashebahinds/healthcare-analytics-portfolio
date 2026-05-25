@@ -55,3 +55,34 @@ SELECT insurance_type,
 FROM healthcare_claims
 GROUP BY insurance_type;
 ```
+
+## Scheduling Operations Dashboard
+
+### Overview
+This project analyzes hospital scheduling operations using Tableau. 
+The dashboard focuses on appointment trends, provider utilization, cancellation analysis, and no-show tracking.
+
+### Tools Used
+- Tableau
+- Excel
+- Google Sheets
+
+### KPIs
+- Total Appointments
+- No Show Rate
+- Provider Utilization %
+- Average Wait Time
+
+### Key Insights
+- Primary Care had the highest provider utilization
+- Orthopedics showed longer patient wait times
+- No-show rates were highest among follow-up visits
+- Completed appointments represented the majority of visits
+
+### Recommendations
+- Reduce wait times in Orthopedics
+- Implement appointment reminders to reduce no-shows
+- Improve provider scheduling balance across departments
+- Monitor cancellation trends weekly<img width="560" height="389" alt="Appointments Dashboard" src="https://github.com/user-attachments/assets/bb8f8615-418e-41b3-b4d1-eb6632614fdd" /><img width="479" height="223" alt="KPI Summary Table" src="https://github.com/user-attachments/assets/4a035a93-b798-4c7f-ae3c-32416ec5bdbc" />
+
+
