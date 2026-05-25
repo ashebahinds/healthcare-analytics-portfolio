@@ -1,0 +1,61 @@
+Appointment ID,Provider,Department,Appointment Date,Status,Visit Type,Wait Time (Days),No Show,Cancellation Reason,Provider Utilization %
+A001,Dr. Smith,Cardiology,2026-05-01,Completed,Follow-up,3,No,,82
+A002,Dr. Lee,Pediatrics,2026-05-02,Completed,New Patient,3,No,,74
+A003,Dr. Patel,Neurology,2026-05-03,Cancelled,Consult,6,No,Patient Cancelled,91
+A004,Dr. Adams,Orthopedics,2026-05-04,Completed,Annual Checkup,8,No,,67
+A005,Dr. Kim,Primary Care,2026-05-05,No Show,Follow-up,1,Yes,Patient No Show,95
+A006,Dr. Brown,Cardiology,2026-05-06,Completed,Follow-up,4,No,,79
+A007,Dr. Clark,Pediatrics,2026-05-07,Completed,New Patient,2,No,,88
+A008,Dr. Lewis,Neurology,2026-05-08,Cancelled,Consult,5,No,Patient Cancelled,70
+A009,Dr. Hall,Orthopedics,2026-05-09,Completed,Annual Checkup,5,No,,93
+A010,Dr. Young,Primary Care,2026-05-10,No Show,Follow-up,2,Yes,Patient No Show,97
+A011,Dr. Smith,Cardiology,2026-05-11,Completed,Follow-up,5,No,,82
+A012,Dr. Lee,Pediatrics,2026-05-12,Completed,New Patient,4,No,,74
+A013,Dr. Patel,Neurology,2026-05-13,Cancelled,Consult,4,No,Patient Cancelled,91
+A014,Dr. Adams,Orthopedics,2026-05-14,Completed,Annual Checkup,6,No,,67
+A015,Dr. Kim,Primary Care,2026-05-15,No Show,Follow-up,1,Yes,Patient No Show,95
+A016,Dr. Brown,Cardiology,2026-05-16,Completed,Follow-up,6,No,,79
+A017,Dr. Clark,Pediatrics,2026-05-17,Completed,New Patient,3,No,,88
+A018,Dr. Lewis,Neurology,2026-05-18,Cancelled,Consult,6,No,Patient Cancelled,70
+A019,Dr. Hall,Orthopedics,2026-05-19,Completed,Annual Checkup,7,No,,93
+A020,Dr. Young,Primary Care,2026-05-20,No Show,Follow-up,2,Yes,Patient No Show,97
+A021,Dr. Smith,Cardiology,2026-05-21,Completed,Follow-up,3,No,,82
+A022,Dr. Lee,Pediatrics,2026-05-22,Completed,New Patient,2,No,,74
+A023,Dr. Patel,Neurology,2026-05-23,Cancelled,Consult,5,No,Patient Cancelled,91
+A024,Dr. Adams,Orthopedics,2026-05-24,Completed,Annual Checkup,8,No,,67
+A025,Dr. Kim,Primary Care,2026-05-25,No Show,Follow-up,1,Yes,Patient No Show,95
+A026,Dr. Brown,Cardiology,2026-05-26,Completed,Follow-up,4,No,,79
+A027,Dr. Clark,Pediatrics,2026-05-27,Completed,New Patient,4,No,,88
+A028,Dr. Lewis,Neurology,2026-05-28,Cancelled,Consult,4,No,Patient Cancelled,70
+A029,Dr. Hall,Orthopedics,2026-05-29,Completed,Annual Checkup,5,No,,93
+A030,Dr. Young,Primary Care,2026-05-30,No Show,Follow-up,2,Yes,Patient No Show,97
+A031,Dr. Smith,Cardiology,2026-05-01,Completed,Follow-up,5,No,,82
+A032,Dr. Lee,Pediatrics,2026-05-02,Completed,New Patient,3,No,,74
+A033,Dr. Patel,Neurology,2026-05-03,Cancelled,Consult,6,No,Patient Cancelled,91
+A034,Dr. Adams,Orthopedics,2026-05-04,Completed,Annual Checkup,6,No,,67
+A035,Dr. Kim,Primary Care,2026-05-05,No Show,Follow-up,1,Yes,Patient No Show,95
+A036,Dr. Brown,Cardiology,2026-05-06,Completed,Follow-up,6,No,,79
+A037,Dr. Clark,Pediatrics,2026-05-07,Completed,New Patient,2,No,,88
+A038,Dr. Lewis,Neurology,2026-05-08,Cancelled,Consult,5,No,Patient Cancelled,70
+A039,Dr. Hall,Orthopedics,2026-05-09,Completed,Annual Checkup,7,No,,93
+A040,Dr. Young,Primary Care,2026-05-10,No Show,Follow-up,2,Yes,Patient No Show,97
+A041,Dr. Smith,Cardiology,2026-05-11,Completed,Follow-up,3,No,,82
+A042,Dr. Lee,Pediatrics,2026-05-12,Completed,New Patient,4,No,,74
+A043,Dr. Patel,Neurology,2026-05-13,Cancelled,Consult,4,No,Patient Cancelled,91
+A044,Dr. Adams,Orthopedics,2026-05-14,Completed,Annual Checkup,8,No,,67
+A045,Dr. Kim,Primary Care,2026-05-15,No Show,Follow-up,1,Yes,Patient No Show,95
+A046,Dr. Brown,Cardiology,2026-05-16,Completed,Follow-up,4,No,,79
+A047,Dr. Clark,Pediatrics,2026-05-17,Completed,New Patient,3,No,,88
+A048,Dr. Lewis,Neurology,2026-05-18,Cancelled,Consult,6,No,Patient Cancelled,70
+A049,Dr. Hall,Orthopedics,2026-05-19,Completed,Annual Checkup,5,No,,93
+A050,Dr. Young,Primary Care,2026-05-20,No Show,Follow-up,2,Yes,Patient No Show,97
+A051,Dr. Smith,Cardiology,2026-05-21,Completed,Follow-up,5,No,,82
+A052,Dr. Lee,Pediatrics,2026-05-22,Completed,New Patient,2,No,,74
+A053,Dr. Patel,Neurology,2026-05-23,Cancelled,Consult,5,No,Patient Cancelled,91
+A054,Dr. Adams,Orthopedics,2026-05-24,Completed,Annual Checkup,6,No,,67
+A055,Dr. Kim,Primary Care,2026-05-25,No Show,Follow-up,1,Yes,Patient No Show,95
+A056,Dr. Brown,Cardiology,2026-05-26,Completed,Follow-up,6,No,,79
+A057,Dr. Clark,Pediatrics,2026-05-27,Completed,New Patient,4,No,,88
+A058,Dr. Lewis,Neurology,2026-05-28,Cancelled,Consult,4,No,Patient Cancelled,70
+A059,Dr. Hall,Orthopedics,2026-05-29,Completed,Annual Checkup,7,No,,93
+A060,Dr. Young,Primary Care,2026-05-30,No Show,Follow-up,2,Yes,Patient No Show,97
