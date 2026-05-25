@@ -30,3 +30,28 @@ This project analyzes healthcare operational and financial performance using Tab
 - Healthcare Dataset
 - Dashboard Screenshots<img width="488" height="345" alt="KPI_Summary_Table" src="https://github.com/user-attachments/assets/b1924063-621e-4e83-b48b-c19798144c3e" />
 <img width="622" height="519" alt="Screenshot 2026-05-25 at 5 03 58 AM" src="https://github.com/user-attachments/assets/d43733a7-4f8a-4cbd-a3b0-ff235e0cb9af" />
+
+## Basic SQL Queries
+```sql
+-- Total number of claims
+SELECT COUNT(*) AS total_claims
+FROM healthcare_claims;
+
+-- Average claim amount by insurance type
+SELECT insurance_type,
+       AVG(claim_amount) AS avg_claim_amount
+FROM healthcare_claims
+GROUP BY insurance_type;
+
+-- Total reimbursement by department
+SELECT department,
+       SUM(reimbursement_amount) AS total_reimbursement
+FROM healthcare_claims
+GROUP BY department;
+
+-- Average processing time by insurance type
+SELECT insurance_type,
+       AVG(days_to_process) AS avg_processing_days
+FROM healthcare_claims
+GROUP BY insurance_type;
+```
