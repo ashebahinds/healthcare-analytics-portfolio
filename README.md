@@ -56,7 +56,7 @@ FROM healthcare_claims
 GROUP BY insurance_type;
 ```
 
-## Scheduling Operations Dashboard
+## Hospital Scheduling Operations Dashboard
 
 ### Overview
 This project analyzes hospital scheduling operations using Tableau. 
@@ -87,4 +87,29 @@ The dashboard focuses on appointment trends, provider utilization, cancellation 
 - <img width="560" height="389" alt="Appointments Dashboard" src="https://github.com/user-attachments/assets/bb8f8615-418e-41b3-b4d1-eb6632614fdd" />
 <img width="479" height="223" alt="KPI Summary Table" src="https://github.com/user-attachments/assets/4a035a93-b798-4c7f-ae3c-32416ec5bdbc" />
 
+## Basic SQL Queries
 
+```sql
+-- Total appointments
+SELECT COUNT(*) AS total_appointments
+FROM hospital_scheduling;
+
+-- No show count by provider
+SELECT provider,
+       COUNT(no_show) AS no_show_count
+FROM hospital_scheduling
+WHERE no_show = 'Yes'
+GROUP BY provider;
+
+-- Average wait time by department
+SELECT department,
+       AVG(wait_time_days) AS avg_wait_time
+FROM hospital_scheduling
+GROUP BY department;
+
+-- Appointment status breakdown
+SELECT status,
+       COUNT(*) AS total_status
+FROM hospital_scheduling
+GROUP BY status;
+```
